@@ -15,7 +15,7 @@ function processQuestionnaire() {
     // Loop through the questions array
             for (var i = 0; i < questions.length; i++) {
             var question = questions[i];
-            if (question !== "yes" && question !== "no") {
+            if (question !== "yes1" && question !== "yes2" && question !== "yes3"&& question !== "no") {
           // Display error message
           swal("โปรดเลือกข้อคำถามให้ครบ", "", "error");
              document.getElementById("processQuestionnaire").innerHTML = "thankyou";
