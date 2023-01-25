@@ -45,7 +45,7 @@ p{
 #button_id
 {
     font-family: 'Kanit', sans-serif;
-    font-size: 25px;
+    font-size: 20px;
     flex: 1 0 auto;
     background-color: #6d6d6d; /* Green */
     border: none;
@@ -59,7 +59,7 @@ p{
 }
 footer{
     margin-top: auto;
-    background-color: rgb(44, 238, 102);
+    background-color: #333;
     color: rgb(255, 255, 255);
     padding: 2rem;
     text-align: center;
